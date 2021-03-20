@@ -96,7 +96,7 @@ describe('Calculadora', () =>{
             cargo:    'GERENTE' 
         };
 
-        expect(cal.montarCalculo(funcionario)).toBe(800.00)
+        expect(cal.montarCalculo(funcionario)).toBe(2400.00)
     })
 })
 

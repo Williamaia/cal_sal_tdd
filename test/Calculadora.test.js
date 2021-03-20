@@ -37,6 +37,18 @@ describe('Calculadora', () =>{
 
         expect(cal.montarCalculo(funcionario)).toBe(1500.00)
     })
+
+    test('Cargo de dba e salário < 2000,00', () => {
+
+        const funcionario = {
+            nome:     'EDUARDO',
+            email:    'EDU@GMAIL',  
+            sal_base:  1000.00,
+            cargo:    'DBA' 
+        };
+
+        expect(cal.montarCalculo(funcionario)).toBe(1700.00)
+    })
 })
 
 

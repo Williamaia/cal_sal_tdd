@@ -1,0 +1,28 @@
+{
+  "name": "cal_salarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.21",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Williamaia/cal_salario_tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Williamaia/cal_salario_tdd/issues"
+  },
+  "homepage": "https://github.com/Williamaia/cal_salario_tdd#readme"
+}

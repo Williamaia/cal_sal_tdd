@@ -13,6 +13,18 @@ describe('Calculadora', () =>{
 
         expect(cal.montarCalculo(funcionario)).toBe(2400.00)
     })
+
+    test('Cargo de desenvolvedor e salário < 3000,00', () => {
+
+        const funcionario = {
+            nome:     'WILLIAM',
+            email:    'WIL@GMAIL',  
+            sal_base:  1000.00,
+            cargo:    'DESENVOLVEDOR' 
+        };
+
+        expect(cal.montarCalculo(funcionario)).toBe(2700.00)
+    })
 })
 
 

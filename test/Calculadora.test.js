@@ -85,6 +85,19 @@ describe('Calculadora', () =>{
 
         expect(cal.montarCalculo(funcionario)).toBe(3500.00)
     })
+
+
+    test('Cargo de gerente e salário < 5000,00', () => {
+
+        const funcionario = {
+            nome:     'GUILHERME',
+            email:    'GUI@GMAIL',  
+            sal_base:  3000.00,
+            cargo:    'GERENTE' 
+        };
+
+        expect(cal.montarCalculo(funcionario)).toBe(800.00)
+    })
 })
 
 

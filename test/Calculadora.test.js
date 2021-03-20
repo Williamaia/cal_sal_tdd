@@ -47,7 +47,7 @@ describe('Calculadora', () =>{
             cargo:    'DBA' 
         };
 
-        expect(cal.montarCalculo(funcionario)).toBe(1700.00)
+        expect(cal.montarCalculo(funcionario)).toBe(850.00)
     })
 })
 
